@@ -8,6 +8,7 @@
 
 ## 🏗️ Mimari
 
+
 ```
 Hybrid MVC + Service Layer
 ├── Controller  → HTTP işlemlerini karşılar
