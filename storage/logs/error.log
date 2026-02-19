@@ -1,6 +1,0 @@
-[2026-02-19 11:22:43] Vexor\Core\Exceptions\HttpException: Method Not Allowed in D:\vexor\src\Core\Router\Router.php:190
-Stack trace:
-#0 D:\vexor\src\Core\Application.php(171): Vexor\Core\Router\Router->dispatch(Object(Vexor\Core\Http\Request))
-#1 D:\vexor\public\index.php(40): Vexor\Core\Application->handle()
-#2 {main}
-

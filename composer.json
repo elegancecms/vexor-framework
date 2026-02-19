@@ -1,9 +1,17 @@
 {
     "name": "vexor/framework",
     "description": "Vexor PHP Framework - High Performance, Ultra Secure MVC + Service Layer Framework",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
-    "version": "1.0.0",
+    "keywords": [
+        "framework",
+        "php",
+        "mvc",
+        "secure",
+        "jwt",
+        "orm"
+    ],
+    "homepage": "https://github.com/elegancecms/vexor-framework",
     "require": {
         "php": ">=8.2",
         "ext-pdo": "*",
@@ -16,8 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vexor\\": "src/",
-            "App\\": "app/"
+            "Vexor\\": "src/"
         },
         "files": [
             "src/Support/helpers.php"
