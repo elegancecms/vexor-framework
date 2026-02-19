@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-use Vexor\Core\Application;
-use Vexor\Core\Http\{Request, Response};
-use Vexor\Core\Auth\AuthManager;
-use Vexor\Core\Security\SecurityManager;
+use Vexor\Application;
+use Vexor\Http\{Request, Response};
+use Vexor\Auth\AuthManager;
+use Vexor\Security\SecurityManager;
 
 if (!function_exists('app')) {
     function app(string $abstract = null, array $params = []): mixed
@@ -211,7 +211,7 @@ if (!function_exists('uuid')) {
 if (!function_exists('abort')) {
     function abort(int $code, string $message = ''): never
     {
-        throw new \Vexor\Core\Exceptions\HttpException($code, $message);
+        throw new \Vexor\Exceptions\HttpException($code, $message);
     }
 }
 
